@@ -1,0 +1,93 @@
+/* HEADER */
+
+section#header {
+  background-color: #96C7C1;
+  text-align: center;
+  padding: 200px 0;
+}
+
+section#header h1 {
+  margin: 0;
+}
+
+/* ABOUT ME */
+section#about {
+  text-align: center;
+  margin: 100px 0;
+}
+
+section#about img {
+  width: 15%;
+}
+
+/* SKILLS */
+section#skills {
+  margin: 100px 0;
+}
+
+section#skills div.skill {
+  background-color: #96C7C1;
+  width: 70%;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+section#skills div.skill img.left {
+  padding-right: 20px;
+  width: 20%;
+}
+
+section#skills div.skill img.right {
+  padding-left: 20px;
+  width: 25%;
+}
+
+/* MEDIA QUERIES */
+/* TABLET */
+@media screen and (max-width: 768px) {
+  section#about {
+    width: 70%;
+    margin: 70px auto;
+  }
+
+  section#about img {
+    width: 25%;
+  }
+
+  /* SKILLS */
+  section#skills {
+    margin: 70px 0;
+  }
+
+  section#skills div.left,
+  section#skills div.right {
+    float: none;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 425px) {
+  section#header {
+    padding: 30px 0;
+  }
+
+  section#about {
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  section#about img {
+    width: 35%;
+  }
+
+  /* SKILLS */
+  section#skills {
+    margin: 50px 0;
+  }
+
+  section#skills div.skill img.left,
+  section#skills div.skill img.right {
+    width: 50%;
+  }
+}
